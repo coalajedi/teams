@@ -2,12 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: black;
-  justify-content: center;
-  align-items: center;
-`;
+  background-color: ${({theme}) => theme.COLORS.GRAY_600};
 
-export const Title = styled.Text`
-  color: white;
-  font-size: 32px;
+  padding: 24px;
 `;

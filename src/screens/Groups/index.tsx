@@ -1,10 +1,6 @@
 import React from 'react-native';
-import {Container, Title} from '@screens/Groups/styles';
+import {Container} from '@screens/Groups/styles';
 
 export function Groups() {
-  return (
-    <Container>
-      <Title>Groups</Title>
-    </Container>
-  );
+  return <Container />;
 }
