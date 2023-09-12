@@ -1,17 +1,10 @@
-import React, {StyleSheet, Text, View} from 'react-native';
+import React from 'react-native';
+import {Container, Title} from '@screens/Groups/styles';
 
 export function Groups() {
   return (
-    <View style={styles.container}>
-      <Text>Groups</Text>
-    </View>
+    <Container>
+      <Title>Groups</Title>
+    </Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
